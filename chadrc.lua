@@ -9,8 +9,25 @@ M.ui = {
   theme = "onedark",
   hl_override = highlights.override,
   hl_add = highlights.add,
-
   transparency = false,
+
+  -- cmp theming
+  cmp = {
+    icons = true,
+    lspkind_text = true,
+    style = "default",
+    border_color = "grey_fg",
+    selected_item_bg = "colored",
+  },
+
+  telescope = {
+    style = "bordered",
+  },
+
+  statusline = {
+    theme = "default",
+    separator_style = "block",
+  },
 }
 
 M.plugins = "custom.plugins"
